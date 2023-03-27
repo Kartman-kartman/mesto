@@ -1,0 +1,10 @@
+.elements__heart {
+ background-size: cover;
+    width:22px;
+    height: 19pxpx;
+    cursor:pointer;
+}
+
+.elements__heart:hover {
+    opacity: 0.5 ;
+}

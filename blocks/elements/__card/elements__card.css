@@ -1,0 +1,11 @@
+.elements__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
