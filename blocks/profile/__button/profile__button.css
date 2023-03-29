@@ -3,4 +3,5 @@
     height: 24px;
     background-color:transparent;
     cursor: pointer;
+    grid-area: button;
 }
