@@ -3,5 +3,16 @@
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    gap: 22px 15px;
+    box-sizing: border-box;
+    margin: 50px 0 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 570px) {
+    .elements {
+    display: flex;
+    flex-direction: column;
+
+    }
 }

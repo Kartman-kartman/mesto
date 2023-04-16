@@ -6,6 +6,14 @@
     line-height: 48px;
     color: #FFFFFF;
     grid-area: title;
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
+}
+
+@media screen and (max-width: 570px) {
+    .profile__title {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+    }
 }

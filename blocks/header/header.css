@@ -3,7 +3,26 @@
     border-bottom: 1px solid rgba(229, 229, 229, 0.7);
     box-sizing: border-box;
     flex-direction: column;
-    margin: 45px 200px;
+    margin: 40px 200px;
     justify-content: center;
 
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+      margin: 0 100px;
+    }
+}
+
+
+@media screen and (max-width: 712px) {
+    .header {
+      margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .header {
+      margin: 0 100px;
+    }
 }

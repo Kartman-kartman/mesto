@@ -1,8 +1,9 @@
 .elements__heart {
- background-size: cover;
-    width:22px;
-    height: 19pxpx;
-    cursor:pointer;
+padding: 0 22px 0 0;
+background-size: cover;
+width:22px;
+height: 19px;
+cursor:pointer;
 }
 
 .elements__heart:hover {

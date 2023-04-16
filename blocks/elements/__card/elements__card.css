@@ -1,5 +1,6 @@
 .elements__card {
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
     justify-content: end;
     background: #FFFFFF;

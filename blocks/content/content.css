@@ -4,3 +4,21 @@
     box-sizing: border-box;
     margin:0 200px;
 }
+
+@media screen and (max-width: 900px) {
+    .content {
+      margin: 0 100px;
+    }
+}
+
+@media screen and (max-width: 712px) {
+    .content {
+      margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .content {
+      margin: 0 100px;
+    }
+}

@@ -1,3 +1,24 @@
 .footer {
     width: 100%;
+    margin:50px 200px;
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+      margin: 0 100px;
+    }
+}
+
+
+@media screen and (max-width: 712px) {
+    .footer {
+      margin: 0 50px;
+    }
+}
+
+
+@media screen and (max-width: 570px) {
+    .footer {
+      margin: 0 100px;
+    }
 }

@@ -12,3 +12,6 @@
     border: none;
     rotate: 45deg;
 }
+.popup__close:hover {
+    opacity: 0.6;
+}
