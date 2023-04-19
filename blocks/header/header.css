@@ -26,3 +26,14 @@
       margin: 0 100px;
     }
 }
+
+@media screen and (max-width: 493px) {
+  .header {
+    margin: 0 50px;
+  }
+}
+@media screen and (max-width: 371px) {
+  .header {
+    margin: 0;
+  }
+}

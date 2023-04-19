@@ -11,6 +11,13 @@ margin-top: 50px;
 .popup__save:hover {
     opacity: 0.6;
 }
-@media screen and (max-width: 500px) {
-    
+@media screen and (max-width: 371px) {
+    .popup__save {
+    width: 238px;
+    height: 46px;
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    }    
 }

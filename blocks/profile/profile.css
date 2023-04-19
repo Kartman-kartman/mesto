@@ -11,3 +11,10 @@
     align-items: center;
     }
 }
+
+@media screen and (max-width: 371px) {
+    .profile {
+   margin-top: 5px;
+    }
+}
+

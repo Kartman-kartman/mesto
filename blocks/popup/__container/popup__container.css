@@ -8,6 +8,14 @@
     border-radius: 10px;
     width: 430px;
     height: 330px;
-    /* justify-content: center;
-    align-items: center; */
+}
+
+@media screen and (max-width: 371px) {
+    .popup__container {
+    width: 282px;
+    height: 322px;
+    position: fixed;
+    top: 123px;
+    }
+    
 }

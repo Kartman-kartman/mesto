@@ -18,3 +18,10 @@ overflow: hidden;
         margin: 24px 0 24px 20px;
     }
 }
+@media screen and (max-width: 371px) {
+    .elements__text:last-child {
+        margin: 25px 40px 25px 20px;
+        display: none;
+    }
+   
+}

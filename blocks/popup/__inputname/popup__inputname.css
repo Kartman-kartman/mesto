@@ -11,3 +11,12 @@ color: #000000;
 border: none;
 border-bottom: 1px solid rgba(0,0,0, 0.2);   
 }
+
+@media screen and (max-width: 371px) {
+    .popup__inputname {
+        width: 238px;
+        height: 28px;
+        margin-top:45px;
+        margin-bottom:26px;
+    }    
+}

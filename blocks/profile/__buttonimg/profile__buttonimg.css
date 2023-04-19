@@ -1,3 +1,4 @@
 .profile__buttonimg {
     background-color:transparent;
+    object-fit: cover;    
 }
