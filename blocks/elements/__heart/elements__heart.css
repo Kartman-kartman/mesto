@@ -1,9 +1,11 @@
 .elements__heart {
-padding: 0 22px 0 0;
+margin: 0 24px 2px 0;
 background-size: cover;
 width:22px;
 height: 19px;
 cursor:pointer;
+border: none;
+background: none;
 }
 
 .elements__heart:hover {

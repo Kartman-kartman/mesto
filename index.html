@@ -14,69 +14,84 @@
 
   </header>
   <main class="content">
-    <div class="profile">
+    <section class="profile">
       <div class="profile__card">
         <img class="profile__img" src="./images/image.jpg" alt="Фото Кусто">
         <div class="profile__info">
           <h1 class="profile__title">Жак-ив-Кусто</h1>
           <h2 class="profile__subtitle">Исследователь океана</h2>
-          <button class="profile__button">
+          <button class="profile__button" type="button">
             <img src="./images/pen.svg" alt="Редактировать" class="profile__buttonimg">
           </button>
         </div>
       </div>
 
-      <button class="profile__plus">
+      <button class="profile__plus" type="button">
         <img src="./images/plus.svg" alt="Кнопка плюс" class="profile__buttonimg">
       </button>
-    </div>
+    </section>
 
-    <ul class="elements">
-      <li class="elements__card">
-        <img class="elements__img" src="./images/1.png" alt="Карачаевск">
-        <div class="elements__info">
-          <p class="elements__text">Карачаевск</p>
-          <img class="elements__heart" src="./images/heart.svg" alt="сердце" onclick="src='./images/union.png'">
+    <section>
+      <ul class="elements">
+        <li class="elements__card">
+          <img class="elements__img" src="./images/1.png" alt="Карачаевск">
+          <div class="elements__info">
+            <h2 class="elements__text">Карачаевск</h2>
+            <button class="elements__heart" type="button">
+              <img src="./images/heart.svg" alt="сердце" onclick="src='./images/union.svg'">
+            </button>
 
-        </div>
-      </li>
-      <li class="elements__card">
-        <img class="elements__img" src="./images/2.png" alt="Гора Эльбрус">
-        <div class="elements__info">
-          <p class="elements__text">Гора Эльбрус</p>
-          <img class="elements__heart" src="./images/heart.svg" alt="сердце" onclick="src='./images/union.png'">
-        </div>
-      </li>
-      <li class="elements__card">
-        <img class="elements__img" src="./images/3.png" alt="Домбай">
-        <div class="elements__info">
-          <p class="elements__text">Домбай</p>
-          <img class="elements__heart" src="./images/heart.svg" alt="сердце" onclick="src='./images/union.png'">
-        </div>
-      </li>
-      <li class="elements__card">
-        <img class="elements__img" src="./images/2.png" alt="Гора Эльбрус">
-        <div class="elements__info">
-          <p class="elements__text">Гора Эльбрус</p>
-          <img class="elements__heart" src="./images/heart.svg" alt="сердце" onclick="src='./images/union.png'">
-        </div>
-      </li>
-      <li class="elements__card">
-        <img class="elements__img" src="./images/3.png" alt="Домбай">
-        <div class="elements__info">
-          <p class="elements__text">Домбай</p>
-          <img class="elements__heart" src="./images/heart.svg" alt="сердце" onclick="src='./images/union.png'">
-        </div>
-      </li>
-      <li class="elements__card">
-        <img class="elements__img" src="./images/1.png" alt="Карачаевск">
-        <div class="elements__info">
-          <p class="elements__text" id="lasttext">Карачаево-Черкессия</p>
-          <img class="elements__heart" src="./images/heart.svg" alt="сердце" onclick="src='./images/union.png'">
-        </div>
-      </li>
 
-    </ul>
+          </div>
+        </li>
+        <li class="elements__card">
+          <img class="elements__img" src="./images/2.png" alt="Гора Эльбрус">
+          <div class="elements__info">
+            <h2 class="elements__text">Гора Эльбрус</h2>
+            <button class="elements__heart" type="button">
+              <img src="./images/heart.svg" alt="сердце" onclick="src='./images/union.svg'">
+            </button>
+          </div>
+        </li>
+        <li class="elements__card">
+          <img class="elements__img" src="./images/3.png" alt="Домбай">
+          <div class="elements__info">
+            <h2 class="elements__text">Домбай</h2>
+            <button class="elements__heart" type="button">
+              <img src="./images/heart.svg" alt="сердце" onclick="src='./images/union.svg'">
+            </button>
+          </div>
+        </li>
+        <li class="elements__card">
+          <img class="elements__img" src="./images/2.png" alt="Гора Эльбрус">
+          <div class="elements__info">
+            <h2 class="elements__text">Гора Эльбрус</h2>
+            <button class="elements__heart" type="button">
+              <img src="./images/heart.svg" alt="сердце" onclick="src='./images/union.svg'">
+            </button>
+          </div>
+        </li>
+        <li class="elements__card">
+          <img class="elements__img" src="./images/3.png" alt="Домбай">
+          <div class="elements__info">
+            <h2 class="elements__text">Домбай</h2>
+            <button class="elements__heart" type="button">
+              <img src="./images/heart.svg" alt="сердце" onclick="src='./images/union.svg'">
+            </button>
+          </div>
+        </li>
+        <li class="elements__card">
+          <img class="elements__img" src="./images/1.png" alt="Карачаевск">
+          <div class="elements__info">
+            <h2 class="elements__text">Карачаево-Черкессия</h2>
+            <button class="elements__heart" type="button">
+              <img src="./images/heart.svg" alt="сердце" onclick="src='./images/union.svg'">
+            </button>
+          </div>
+        </li>
+      </ul>
+    </section>
+
 
 
 
@@ -87,20 +102,20 @@
     <p class="footer__text">© 2020 Mesto Russia</p>
   </footer>
 
-  <section class="popup">
+  <div class="popup">
     <div class="popup__container">
-      <button class="popup__close"></button>
+      <button class="popup__close" type="button"></button>
       <h2 class="popup__header">Редактировать профиль</h2>
-      <form class="popup__form">
-        <input class="popup__inputname" type="text" name="inputName" value="">
-        <input class="popup__inputjob" type="text" name="inputJob" value="">
+      <form class="popup__form" name="popup">
+        <input class="popup__input popup__input_name" type="text" name="inputName" value="">
+        <input class="popup__input popup__input_job" type="text" name="inputJob" value="">
         <button class="popup__save" type="submit">Сохранить</button>
       </form>
 
 
     </div>
 
-  </section>
+  </div>
 
   <script src="./scripts/index.js"></script>
 </body>

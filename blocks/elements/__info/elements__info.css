@@ -3,7 +3,5 @@
     box-sizing: border-box;
     flex-direction:row;
     justify-content: space-between;
-    align-items: center;
-    background-image: url(//images/2.png);
-  
+    align-items: center;  
 }
