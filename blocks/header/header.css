@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    border-bottom: 1px solid rgba(229, 229, 229, 0.7);
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
     box-sizing: border-box;
     flex-direction: column;
     margin: 40px 200px;
