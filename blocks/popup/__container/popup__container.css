@@ -26,9 +26,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .popup__container {
-        position: fixed;
-        top:122px;
+    .popup__container {   
     margin: 0;
     }
     
