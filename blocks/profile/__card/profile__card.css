@@ -2,11 +2,19 @@
 display: flex;
 flex-direction: row;
 }
+@media screen and (max-width: 712px) {
+    .profile__card{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px;
+    }
+}
+
 
 @media screen and (max-width: 570px) {
     .profile__card{
     flex-direction: column;
     align-items: center;
-    margin-top: 38px;
+    margin: 38px 100px 0;
     }
 }

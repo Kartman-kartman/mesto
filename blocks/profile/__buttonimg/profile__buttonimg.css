@@ -4,8 +4,9 @@
 }
 @media screen and (max-width: 371px) {
     .profile__buttonimg {
-   width: 8px;
-   height: 8px;
+   width: 15px;
+   height: 15px;
+   
     }
      }
 
