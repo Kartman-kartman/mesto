@@ -1,0 +1,13 @@
+.profile__plusimg {
+    background-color:transparent;
+    object-fit: cover; 
+}
+
+@media screen and (max-width: 371px) {
+    .profile__plusimg {
+   width: 16px;
+   height: 16px;
+   
+    }
+     }
+
